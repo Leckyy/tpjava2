@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function calculate(){
+			var p1 =parseInt(document.getElementById("premier").value);
+			var p2 =parseInt(document.getElementById("deux").value);
+			document.getElementById("trois").value=(p1+p2);
+
+				var p4 =parseInt(document.getElementById("quatre").value);
+				var p5 =parseInt(document.getElementById("cinq").value);
+				document.getElementById("six").value=(p4+p5+);
+
+				var p7 =parseInt(document.getElementById("sept").value);
+				var p8 =parseInt(document.getElementById("huigt").value);
+				document.getElementById("neuf").value=(p7+p8+p5);
+
+
+
+		}
+
+
+	</script>
+</head>
+<body>
+<form>
+
+<center><h1>Facture en Javascript</h1></center>
+<center>
+<table border="1" width="50%">
+	<tr>
+		<td>Article</td>
+		<td>Prix</td>
+		<td>Quantité</td>
+		<td>Résultat</td>
+	</tr>
+	<tr>
+		<td><input  type="text" placeholder="Saisir la désignation"  name="t1"></td>
+		<td><input id="premier" name="premier" value=0 type="text"></td>
+		<td><input id="deux" name="deux"  value=0 name="text"></td>
+		<td><input id="trois" name="trois"  value=0 name="text"></td>
+	</tr>
+	<tr>
+	<tr>
+		<td><input type="text" placeholder="Saisitr la désignation" name=""></td>
+		<td><input id="quatre" name="quatre"  value=0 name=""></td>
+		<td><input id="cinq" name="cinq"  value=0 name=""></td>
+		<td><input id="six" name="six"  value=0 name=""></td>
+	</tr>
+	<tr>
+	<tr>
+		<td><input type="text" placeholder="Saisitr la désignation" name=""></td>
+		<td><input id="sept" name="sept"  value=0 name=""></td>
+		<td><input id="huigt" name="huigt"  value=0 name=""></td>
+		<td><input id="neuf" name="neuf" value=0 name=""></td>
+	</tr>
+	
+	<tr>
+		<td></td>
+		<td><input type="reset" name="r1"> </td>
+		<td><input onclick="calculate()" type="button" value="Addition"></td>
+		<td><input id="dix" name="10" type="text" ></td>
+	</tr>
+
+</table>
+
+</form>
+
+
+
+
+</center>
+
+</body>
+</html>
